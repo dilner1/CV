@@ -1,9 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@200;500&family=Playfair+Display&display=swap');
 
+
+/*------------------------------ Colours  */
+
+a > span {
+    text-decoration: none;
+    color: white;
+}
+
 .bg-color-name-title{
     background-color: #84A59D;
 }
 
+.ui-menu-color-home {
+    background-color: #E16451;
+}
+
+.ui-menu-color-resume {
+    background-color: #F6BD60;
+}
+
+.ui-menu-color-contact {
+    background-color: #318273;
+}
+
+.ui-menu-color-download {
+    background-color: #472C2A;
+}
+
+/*----------------------------- Heading */
 body {
     background-color: #F7EDE2;
 }
