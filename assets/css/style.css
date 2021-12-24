@@ -1,1 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Playfair+Display&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/rosie.jpeg");
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all;
+}
