@@ -4,8 +4,12 @@ header {
     margin: 0;
 }
 
+.bg-color-name-title{
+    background-color:cornflowerblue;
+}
+
 .logo {
-    background: url("../images/daniel.jpeg");
+    background: url("../images/daniel.jpg");
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
