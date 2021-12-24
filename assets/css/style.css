@@ -8,24 +8,24 @@
 }
 
 .ui-menu-color-home {
-    background-color: #E16451;
+    background-color: #BAAD78
 }
 
 .ui-menu-color-resume {
-    background-color: #F6BD60;
+    background-color: #F5B651
 }
 
 .ui-menu-color-contact {
-    background-color: #318273;
+    background-color: #F28482;
 }
 
 .ui-menu-color-download {
-    background-color: #472C2A;
+    background-color: #688D84;
 }
 
 /*----------------------------- Heading */
 body {
-    background-color: #F7EDE2;
+    background-color: #F4F6F4;
 }
 
 header {
@@ -33,7 +33,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 4rem;
     padding: 2rem;
 }
 
@@ -42,7 +42,7 @@ header {
     background-position:  center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -64,14 +64,26 @@ header {
 
 .menucontainer {
     font-size: 0;
+    height: 140px;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
     font-size: 1rem;
 }
 
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .menuitem {
-    height: 120px;
+    height: 100%;
     text-align: center;
     padding: 0;
 }
@@ -79,6 +91,24 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #ffffff;
-    height: 120px;
+    color: #F4F6F4;
 }
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #F4F6F4;
+    font-size: 2rem;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/*------------------------------ Hover.css  */
