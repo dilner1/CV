@@ -75,3 +75,7 @@ header {
     font-size: 1rem;
 }
 
+.menuitem {
+    height: 120px;
+    text-align: center;
+}
