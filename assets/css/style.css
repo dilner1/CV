@@ -3,11 +3,6 @@
 
 /*------------------------------ Colours  */
 
-a > span {
-    text-decoration: none;
-    color: white;
-}
-
 .bg-color-name-title{
     background-color: #84A59D;
 }
@@ -76,6 +71,8 @@ header {
 }
 
 .menuitem {
+    text-decoration: none;
+    color: white;
     height: 120px;
     text-align: center;
 }
