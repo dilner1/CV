@@ -115,6 +115,6 @@ dl {
 /*------------------------------ Hover.css  */
 
 .hvr-sweep-to-bottom:before {
-    background:rgba(48, 31, 13, 0.5) ;
     height: 140px;
+    background: rgba(48, 31, 13, 0.25);
 }
