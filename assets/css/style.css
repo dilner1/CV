@@ -1,11 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@200&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@200;500&family=Playfair+Display&display=swap');
+
+.bg-color-name-title{
+    background-color: #84A59D;
+}
+
+body {
+    background-color: #F7EDE2;
+}
 
 header {
     margin: 0;
 }
 
-.bg-color-name-title{
-    background-color:cornflowerblue;
+.heading {
+    margin-left: 50px;
+    padding: 2rem;
 }
 
 .logo {
@@ -17,4 +26,14 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+}
+
+.title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
 }
