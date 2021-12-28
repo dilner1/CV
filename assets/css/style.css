@@ -7,6 +7,10 @@
     background-color: #84A59D;
 }
 
+.bg-color-personal-info {
+    background-color: #FCEED9;
+}
+
 .bg-color-three-reasons {
     background-color: #F4F6F4;
 }
@@ -212,4 +216,8 @@ footer {
 .list-inline-item a i {
     text-decoration: none;
     color:#F4F6F4;
+}
+
+.three-reasons-icon {
+    margin-bottom: 15px;
 }
