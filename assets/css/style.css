@@ -15,6 +15,10 @@
     background-color: #F4F6F4;
 }
 
+.bg-color-contact {
+    background-color:#84A59D;
+}
+
 .ui-menu-color-home {
     background-color: #BAAD78
 }
@@ -99,7 +103,7 @@ header {
 
 .menucontainer {
     font-size: 0;
-    height: 140px;
+    /* height: 140px; */
 }
 
 #nav {
@@ -119,6 +123,7 @@ dl {
 
 .menuitem {
     height: 100%;
+    text-align: center;
     padding: 0;
 }
 
@@ -126,6 +131,7 @@ dl {
     width: 100%;
     text-decoration: none;
     color: #F4F6F4;
+    height: 120px;
 }
 
 .menuitem a i {
@@ -272,6 +278,13 @@ footer {
     background-color: rgba(25, 25, 25, 0.25);
 }
 
+.progress-section {
+    margin: 40px 20px;
+}
+
+/* ----------------------------------------Work History */
+
+
 .history-heading {
     margin-bottom: 50px;
 }
@@ -310,49 +323,4 @@ footer {
     border-radius: 12px;
     content: '';
     background: #688D84;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
-/* ----------------------------------------Work History */
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-}
-
-.history-items {
-    margin-bottom: 30px;
 }
